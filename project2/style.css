@@ -73,20 +73,22 @@ textarea:focus {
 }
 
 button {
-  background-color: red;
+  background-color: green;
   border: transparent solid 2px;
   padding: 5px 10px;
   color: white;
   border-radius: 8px;
   transition: 0.3s ease-in;
+  box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.746);
 }
 
 button:hover {
-  background-color: #ccc;
-  border: 2px solid green;
-  color: black;
+  background-color: red;
+  border: 2px solid brown;
+  color: white;
   transition: 0.3s ease-out;
   cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.746);
 }
 
 .textarea_control {
@@ -100,7 +102,7 @@ button:hover {
 .textarea_control textarea {
   width: 100%;
   min-width: 100%;
-  min-height: 100px;
+  min-height: 35px;
   max-width: 100%;
   max-height: 200px;
 }

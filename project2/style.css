@@ -54,7 +54,15 @@ textarea {
 }
 
 input:focus {
-  outline-color: red;
+  outline-color: green;
+}
+
+select:focus {
+  outline-color: green;
+}
+
+textarea:focus {
+  outline-color: green;
 }
 
 .button_container {
@@ -75,7 +83,7 @@ button {
 
 button:hover {
   background-color: #ccc;
-  border: 2px solid red;
+  border: 2px solid green;
   color: black;
   transition: 0.3s ease-out;
   cursor: pointer;
@@ -87,6 +95,14 @@ button:hover {
 
 .textarea_control textarea {
   width: 100%;
+}
+
+.textarea_control textarea {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 200px;
 }
 
 @media (max-width: 460px) {
